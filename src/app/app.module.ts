@@ -20,6 +20,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 }
 
 export function createTranslateLoader(http: HttpClient) {
+  console.log("environment.pathToAssets - ", environment.pathToAssets)
   return new TranslateHttpLoader(http, `${environment.pathToAssets}/assets/i18n/`, '.json');
 }
 
