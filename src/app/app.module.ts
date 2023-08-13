@@ -12,10 +12,15 @@ import {FormsModule} from "@angular/forms";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+import {environment} from "../environments/environment";
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient);
+}
+
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, `${environment.pathToAssets}/assets/i18n/`, '.json');
 }
 
 @NgModule({
@@ -35,10 +40,11 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
+        useFactory: environment.production ? (createTranslateLoader) : HttpLoaderFactory,
         deps: [HttpClient]
       }
     }),
+
     AppRoutingModule
   ],
   providers: [],
