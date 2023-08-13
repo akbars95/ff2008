@@ -1,0 +1,13 @@
+{
+  "@@locale": "en-US",
+  "2873889386403526621": "Нажмите на фото чтобы отрыть в другой вкладке в реальном размере",
+  "@2873889386403526621": {
+    "x-locations": [
+      {
+        "file": "src/app/components/photos/photos.component.html",
+        "start": { "line": "9", "column": "26" },
+        "end": { "line": "9", "column": "90" }
+      }
+    ]
+  }
+}

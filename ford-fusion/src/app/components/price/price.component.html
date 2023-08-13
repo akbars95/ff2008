@@ -1,0 +1,28 @@
+<h1 class="text-center">{{ 'page.price.name' | translate}}</h1>
+<div class="row">
+  <div class="col-6 offset-3">
+    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" (change)="changeOption()" [(ngModel)]="type">
+      <option selected>{{ 'page.price.options.not_choose' | translate}}</option>
+      <option value="1">{{ 'page.price.options.winter_tyre' | translate}}</option>
+      <option value="2">{{ 'page.price.options.summer_tyre' | translate}}</option>
+      <option value="3">{{ 'page.price.options.all_tyres' | translate}}</option>
+    </select>
+  </div>
+</div>
+<div class="row">
+  <div class="col-10 offset-1" *ngIf="price">
+    <h2>{{ 'page.price.name' | translate}} - {{price}} EURO</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col-8 offset-2" *ngIf="winter_wheel">
+    <h4></h4>
+    <img [src]="winter_wheel" width="512" height="256">
+  </div>
+</div>
+<div class="row">
+  <div class="col-8 offset-2" *ngIf="summer_wheel">
+    <h4></h4>
+    <img [src]="summer_wheel" width="512" height="256">
+  </div>
+</div>

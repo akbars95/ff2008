@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US">
+  <file id="ngi18n" original="ng.template">
+    <unit id="2873889386403526621">
+      <notes>
+        <note category="location">src/app/components/photos/photos.component.html:10</note>
+      </notes>
+      <segment>
+        <source>Нажмите на фото чтобы отрыть в другой вкладке в реальном размере</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

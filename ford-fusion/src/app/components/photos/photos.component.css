@@ -1,0 +1,29 @@
+#infoPhoto {
+  font-size: 25px;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+#imageViewer {
+  width: fit-content;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+#imageViewer img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  /*max-width: 100%;*/
+  /*max-height: calc(100vh - var(--header-height));*/
+}
+
+span#message {
+  color: brown;
+  background-color: gold;
+  font-size: 29px;
+}
+
+#buttons {
+  margin-bottom: 10px;
+}
