@@ -8,6 +8,6 @@ import {environment} from "../../../environments/environment";
 })
 export class VideosComponent {
 
-  videoPath = `${environment.pathToAssets}/assets/videos/VID_20230101_161323.mp4`;
+  videoPath = `${environment.pathToAssets}assets/videos/VID_20230101_161323.mp4`;
 
 }

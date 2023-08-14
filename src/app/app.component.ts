@@ -9,7 +9,7 @@ import {environment} from "../environments/environment";
 })
 export class AppComponent {
 
-  mainImagePath = `${environment.pathToAssets}/assets/images/ford.jpeg`
+  mainImagePath = `${environment.pathToAssets}assets/images/ford.jpeg`
 
   constructor(public translate: TranslateService) {
     translate.addLangs(['ro', 'ru']);
