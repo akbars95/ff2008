@@ -6,9 +6,11 @@ import {VideosComponent} from "./components/videos/videos.component";
 import {InfoComponent} from "./components/info/info.component";
 import {PriceComponent} from "./components/price/price.component";
 import {ContactsComponent} from "./components/contacts/contacts.component";
+import {MainComponent} from "./components/main/main.component";
 
 const routes: Routes = [
-  {path: '', redirectTo: 'photos', pathMatch: 'full'},
+  {path: '', redirectTo: 'main', pathMatch: 'full'},
+  {path: 'main', component: MainComponent},
   {path: 'photos', component: PhotosComponent},
   {path: 'videos', component: VideosComponent},
   {path: 'info', component: InfoComponent},

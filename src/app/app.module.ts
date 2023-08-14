@@ -14,6 +14,7 @@ import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {environment} from "../environments/environment";
 import { ContactsComponent } from './components/contacts/contacts.component';
+import { MainComponent } from './components/main/main.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -34,7 +35,8 @@ export function createTranslateLoader(http: HttpClient) {
     InfoComponent,
     PriceComponent,
     PageNotFoundComponent,
-    ContactsComponent
+    ContactsComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
