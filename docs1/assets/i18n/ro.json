@@ -1,0 +1,60 @@
+{
+  "header": {
+    "imageName": "Site-ul Ford Fusion"
+  },
+  "menu": {
+    "photos": "Fotografii",
+    "videos": "Video",
+    "info": "Informație",
+    "price": "Preț"
+  },
+  "language": {
+    "ro": "Moldovenesc/Român",
+    "ru": "Rusă"
+  },
+  "page": {
+    "photos": {
+      "button": {
+        "first": "Prima fotografie",
+        "previous": "Poza anterioară",
+        "next": "Poza următoare",
+        "last": "Ultima fotografie"
+      },
+      "info": "Faceți clic pe imagine pentru a deschide o filă separată în imagine la dimensiune reală!"
+    },
+    "not_found": "Pagina nu a fost găsită - 404",
+    "price": {
+      "name": "Preț",
+      "options": {
+        "not_choose": "Alegeți una dintre opțiuni",
+        "winter_tyre": "Pret cauciucuri de iarna",
+        "summer_tyre": "Pretul anvelopelor de vara",
+        "all_tyres": "Pret cu set complet (iarna+vara)"
+      }
+    },
+    "info": {
+      "name": "Vand Ford Fusion, 1.4 tdci, diesel, lansare 11.2008",
+      "auto_info": "A fost achizitionat in 04.2009 (in Belgia), mecanica, hatchback, 1 proprietar in Moldova (avem masina din Belgia din 07.2018, era un proprietar in Belgia).",
+      "tech_review": "Întreținere făcută",
+      "fuel_filter": "filtru de combustibil",
+      "air_filter": "filtru de aer",
+      "salon_filter": "filtru de habitaclu",
+      "oil_filter": "filtru de ulei",
+      "oil": "ulei de motor",
+      "timing_belt": "Cureaua de distribuție cu curea de apă și role a fost schimbată 141.000 km (mașina a fost cumpărată 140.640), kilometrajul este în prezent de 160.020 km.",
+      "accumulator": "Baterie",
+      "damper": "Amortizoare SACHS (10.2020) spate schimbate",
+      "brake_disk": "Discurile de frana fata schimbate",
+      "candle_heat": "Bujiile incandescente schimbate",
+      "valve": "Supapa EGR 'Valve' schimbată",
+      "spare_wheel": "Roată de rezervă Bridgestone R14 nou (nu l-am folosit niciodată, nou)",
+      "winter_tyre": "Roți de iarnă din oțel pe R15 cu cauciuc",
+      "summer_tyre": "Jante de vara pe R16 (nativ Ford, aliaj usor) cu cauciucuri de vara",
+      "current_time": "În acest moment",
+      "tech_review_past": "Inspecția va trece",
+      "insurance": "Asigurare pentru un numar nelimitat de persoane",
+      "door_tax": "Taxa rutieră plătită",
+      "conclusion": "Conduc cu mașina în fiecare zi. Auto in stare excelenta! Consum 3,3-3,9 l (autostrada) si 4,5-5,0 (oras)."
+    }
+  }
+}
