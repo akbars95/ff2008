@@ -14,15 +14,24 @@
     <h2>{{ 'page.price.name' | translate}} - {{price}} EURO</h2>
   </div>
 </div>
-<div class="row">
-  <div class="col-8 offset-2" *ngIf="winter_wheel">
-    <h4></h4>
-    <img [src]="winter_wheel" width="512" height="256">
+<div class="row" *ngIf="winter_wheel && !summer_wheel">
+  <div class="col-8 offset-2">
+    <img [src]="winter_wheel" class="imageSize">
   </div>
 </div>
-<div class="row">
-  <div class="col-8 offset-2" *ngIf="summer_wheel">
-    <h4></h4>
-    <img [src]="summer_wheel" width="512" height="512">
+<div class="row" *ngIf="summer_wheel && !winter_wheel">
+  <div class="col-8 offset-2">
+    <img [src]="summer_wheel" class="imageSize">
+  </div>
+</div>
+<div class="row" *ngIf="summer_wheel && winter_wheel">
+  <div class="col-5">
+    <img [src]="summer_wheel" class="imageSize">
+  </div>
+  <div class="col-2">
+    <p style="font-size: 200px; color: lawngreen;">+</p>
+  </div>
+  <div class="col-5">
+    <img [src]="winter_wheel" class="imageSize">
   </div>
 </div>
