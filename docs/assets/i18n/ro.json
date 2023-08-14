@@ -64,6 +64,14 @@
       "videos_page" : "aici este un videoclip al mașinii",
       "price_page" : "aici puteti afla despre pret si 3 variante diferite",
       "contacts_page" : "Iată contactele mele, cum pot lua legătura"
+    },
+    "contacts" : {
+      "myPhoneNumber" : "Numărul meu de telefon principal",
+      "currentTime" : "această numar are",
+      "iAmAccessible" : "pe care sunt disponibil si eu",
+      "mySecondPhoneNumber" : "Al doilea număr de telefon al meu",
+      "priority" : "dar prioritate"
     }
+
   }
 }
