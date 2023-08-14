@@ -13,9 +13,11 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {environment} from "../environments/environment";
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
+  console.log("environment.pathToAssets - ", environment.pathToAssets)
   return new TranslateHttpLoader(httpClient);
 }
 
@@ -31,7 +33,8 @@ export function createTranslateLoader(http: HttpClient) {
     VideosComponent,
     InfoComponent,
     PriceComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,

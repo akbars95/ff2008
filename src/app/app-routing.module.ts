@@ -5,6 +5,7 @@ import {PhotosComponent} from "./components/photos/photos.component";
 import {VideosComponent} from "./components/videos/videos.component";
 import {InfoComponent} from "./components/info/info.component";
 import {PriceComponent} from "./components/price/price.component";
+import {ContactsComponent} from "./components/contacts/contacts.component";
 
 const routes: Routes = [
   {path: '', redirectTo: 'photos', pathMatch: 'full'},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'videos', component: VideosComponent},
   {path: 'info', component: InfoComponent},
   {path: 'price', component: PriceComponent},
+  {path: 'contacts', component: ContactsComponent},
   {path: '**', component: PageNotFoundComponent}
 ];
 
