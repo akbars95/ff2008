@@ -9,7 +9,7 @@ import {ContactsComponent} from "./components/contacts/contacts.component";
 import {MainComponent} from "./components/main/main.component";
 
 const routes: Routes = [
-  {path: '', redirectTo: 'main', pathMatch: 'full'},
+  {path: '', component: MainComponent},
   {path: 'main', component: MainComponent},
   {path: 'photos', component: PhotosComponent},
   {path: 'videos', component: VideosComponent},
