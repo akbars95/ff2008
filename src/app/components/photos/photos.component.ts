@@ -41,7 +41,7 @@ export class PhotosComponent implements OnInit {
       }
       imageName = this.images[this.currentIndex];
     }
-    this.currentImagePath = `${environment.pathToAssets}assets/images/${imageName}`;
+    this.currentImagePath = `${environment.pathToAssets}${environment.contextPath}assets/images/${imageName}`;
     this.isFirstImage = this.currentIndex == 0;
     this.isLastImage = this.currentIndex == this.lastIndex;
   }

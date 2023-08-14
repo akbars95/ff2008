@@ -11,7 +11,7 @@ export class PriceComponent {
   price: number | undefined;
   winter_wheel: string | undefined;
   summer_wheel: string | undefined;
-  imagesFolder: string = `${environment.pathToAssets}assets/images/`;
+  imagesFolder: string = `${environment.pathToAssets}${environment.contextPath}assets/images/`;
   winterImageName: string = '1672591394379';
   summerImageName: string = '1683616262194_1';
 
