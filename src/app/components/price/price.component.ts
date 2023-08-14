@@ -7,7 +7,7 @@ import {environment} from "../../../environments/environment";
   styleUrls: ['./price.component.css']
 })
 export class PriceComponent {
-  type: string | undefined;
+  type: string = "0";
   price: number | undefined;
   winter_wheel: string | undefined;
   summer_wheel: string | undefined;

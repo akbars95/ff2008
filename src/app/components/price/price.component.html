@@ -2,7 +2,7 @@
 <div class="row">
   <div class="col-6 offset-3">
     <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" (change)="changeOption()" [(ngModel)]="type">
-      <option selected>{{ 'page.price.options.not_choose' | translate}}</option>
+      <option value="0" selected>{{ 'page.price.options.not_choose' | translate}}</option>
       <option value="1">{{ 'page.price.options.winter_tyre' | translate}}</option>
       <option value="2">{{ 'page.price.options.summer_tyre' | translate}}</option>
       <option value="3">{{ 'page.price.options.all_tyres' | translate}}</option>
