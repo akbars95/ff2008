@@ -56,6 +56,14 @@
       "insurance": "Asigurare pentru un numar nelimitat de persoane",
       "door_tax": "Taxa rutieră plătită",
       "conclusion": "Conduc cu mașina în fiecare zi. Auto in stare excelenta! Consum 3,3-3,9 l (autostrada) si 4,5-5,0 (oras)."
+    },
+    "main" : {
+      "info" : "Site-ul de vânzări Ford Fusion 2008",
+      "info_page" : "Iată mai multe informații despre mașină",
+      "photos_page" : "mai multe fotografii pot fi vazute aici",
+      "videos_page" : "aici este un videoclip al mașinii",
+      "price_page" : "aici puteti afla despre pret si 3 variante diferite",
+      "contacts_page" : "Iată contactele mele, cum pot lua legătura"
     }
   }
 }
