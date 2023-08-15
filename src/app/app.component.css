@@ -2,3 +2,12 @@
   color: red;
   font-weight: bold;
 }
+
+.copyAddress {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  /*transform: rotate(90deg);*/
+}

@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
 import {environment} from "../environments/environment";
+import {CommonServiceService} from "./services/common-service.service";
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,7 @@ export class AppComponent {
 
   mainImagePath = `${environment.pathToAssets}${environment.contextPath}assets/images/ford.jpeg`
 
-  constructor(public translate: TranslateService) {
+  constructor(public translate: TranslateService, public commonServiceService: CommonServiceService) {
     translate.addLangs(['ro', 'ru']);
     translate.setDefaultLang('ro');
 

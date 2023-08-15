@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {CommonServiceService} from "../../services/common-service.service";
 
 @Component({
   selector: 'app-contacts',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./contacts.component.css']
 })
 export class ContactsComponent {
+
+  constructor(public commonServiceService: CommonServiceService) {
+  }
 
 }
