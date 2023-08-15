@@ -9,13 +9,13 @@ import {ContactsComponent} from "./components/contacts/contacts.component";
 import {MainComponent} from "./components/main/main.component";
 
 const routes: Routes = [
-  {path: '', component: MainComponent},
   {path: 'main', component: MainComponent},
   {path: 'photos', component: PhotosComponent},
   {path: 'videos', component: VideosComponent},
   {path: 'info', component: InfoComponent},
   {path: 'price', component: PriceComponent},
   {path: 'contacts', component: ContactsComponent},
+  {path: '', component: MainComponent},
   {path: '**', component: PageNotFoundComponent}
 ];
 
