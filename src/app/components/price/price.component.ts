@@ -7,7 +7,7 @@ import {environment} from "../../../environments/environment";
   styleUrls: ['./price.component.css']
 })
 export class PriceComponent {
-  type: string = "0";
+  type: string = "2";
   price: number | undefined;
   winter_wheel: string | undefined;
   summer_wheel: string | undefined;
@@ -22,7 +22,7 @@ export class PriceComponent {
       this.summer_wheel = undefined;
     }
     else if (this.type == '2') {
-      this.price = 4900;
+      this.price = 4800;
       this.winter_wheel = undefined;
       this.summer_wheel = `${this.imagesFolder}${this.summerImageName}.jpg`;
     }
