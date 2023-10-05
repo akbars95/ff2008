@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {environment} from "../../../environments/environment";
 
 @Component({
@@ -6,7 +6,8 @@ import {environment} from "../../../environments/environment";
   templateUrl: './price.component.html',
   styleUrls: ['./price.component.css']
 })
-export class PriceComponent {
+export class PriceComponent implements OnInit{
+
   type: string = "2";
   price: number | undefined;
   winter_wheel: string | undefined;
@@ -15,7 +16,11 @@ export class PriceComponent {
   winterImageName: string = '1672591394379';
   summerImageName: string = '1683616262194_1';
 
-  changeOption(): void {
+  ngOnInit(): void {
+    this.changeOption();
+  }
+
+  public changeOption(): void {
     if (this.type == '1') {
       this.price = 4600;
       this.winter_wheel = `${this.imagesFolder}${this.winterImageName}.jpg`;
